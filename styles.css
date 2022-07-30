@@ -1,0 +1,33 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    color: #F3DFA2;
+    text-align: center;
+}
+h2 {
+    color: #F3DFA2;
+    text-align: center;
+}
+ul {
+    text-align:center;
+}
+body{
+    background-color: #519872;
+}
+
+p {
+    color: #BEC5AD;
+}
+
+.Workouts{
+    color: #BEC5AD;
+}
+
+.Menu{
+    color: #BEC5AD;
+    text-align: center;
+    background-color: #BEC5AD;
+    height: 25px;
+}
