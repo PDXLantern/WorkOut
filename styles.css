@@ -1,33 +1,85 @@
+/* All Fonts*/
 *{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-
+/*Heading 1*/
 h1 {
+    font-size: 60px;
     color: #F3DFA2;
     text-align: center;
 }
+/*Heading 2*/
 h2 {
+    font-size: 40px;
     color: #F3DFA2;
     text-align: center;
+    padding: 20px;
 }
-ul {
-    text-align:center;
-}
+/*Body*/
 body{
     background-color: #519872;
 }
-
+/*Paragraphs*/
 p {
-    color: #BEC5AD;
+    text-align: center;
+    color: #c0c5b2;
 }
-
-.Workouts{
-    color: #BEC5AD;
+/*Unordered List*/
+ul {
+    font-size: 20px;
+    padding-left:0;
+    text-align: center;
 }
-
+/*Navigation Menu*/
 .Menu{
+    font-size: 20px;
     color: #BEC5AD;
     text-align: center;
-    background-color: #BEC5AD;
-    height: 25px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+/*Fitness Icon*/
+.icon{
+    text-align: center;
+    padding: 40px;
+}
+/* link */
+a:link {
+    display: inline-block;
+    background-color: #c0c5b2;
+    border-radius: 10px;
+    border: 5px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    width: 300px;
+    margin: 1px;
+    text-decoration: none;
+  }
+/* visited link */
+  a:visited {
+    color: #519872;
+    text-decoration: none;
+
+  }
+  /* hover link */
+  a:hover{
+    color: #519872;
+    background-color: #F3DFA2;
+  }
+  /* Social */
+.Creator-Notes{
+    padding: 20px;
+}
+.Creator-Notes a{
+    background-color: #519872;
+    color: #BEC5AD;
+    font-size: 15px;
+    width: 180px;
+}
+.Creator-Notes a:hover {
+    background-color: #519872;
+    border-color: #F3DFA2;
+    color: #F3DFA2;
 }
