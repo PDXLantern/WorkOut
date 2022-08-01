@@ -6,27 +6,27 @@
 h1 {
     font-size:10vw;
     font-size: 100px;
-    color: #F3DFA2;
+    color: #e9c46a;
     text-align: center;
 }
 /*Heading 2*/
 h2 {
     font-size:10vw;
     font-size: 60px;
-    color: #F3DFA2;
+    color: #e9c46a;
     text-align: center;
     padding: 20px;
 }
 /*Body*/
 body{
-    background-color: #519872;
+    background-color: #2a9d8f;
 }
 /*Paragraphs*/
 p {
     font-size:5vw;
     font-size: 20px;
     text-align: center;
-    color: #c0c5b2;
+    color:#264653;
 }
 /*Unordered List*/
 ul {
@@ -45,14 +45,14 @@ ul {
 /*Fitness Icon*/
 .icon{
     text-align: center;
-    padding: 40px;
+    padding: 20px;
 }
 /* link */
 a:link {
     display: inline-block;
-    background-color: #c0c5b2;
+    background-color: #264653;
     border-radius: 10px;
-    border: 5px double #cccccc;
+    border: 5px double #f4a261;
     color: #eeeeee;
     text-align: center;
     font-size:20vw;
@@ -64,28 +64,27 @@ a:link {
   }
 /* visited link */
   a:visited {
-    color: #519872;
+    color: #e9c46a;
     text-decoration: none;
 
   }
   /* hover link */
   a:hover{
-    color: #519872;
-    background-color: #F3DFA2;
+    color: #264653;
+    background-color: #f4a261;
   }
   /* Social */
 .Creator-Notes{
     padding: 20px;
 }
 .Creator-Notes a{
-    background-color: #519872;
-    color: #BEC5AD;
+    background-color: #264653;
+    color: #e9c46a;
     font-size:10vw;
     font-size: 15px;
     width: 180px;
 }
 .Creator-Notes a:hover {
-    background-color: #519872;
-    border-color: #F3DFA2;
-    color: #F3DFA2;
+    background-color: #f4a261;
+    color: #264653;
 }
