@@ -4,13 +4,15 @@
 }
 /*Heading 1*/
 h1 {
-    font-size: 60px;
+    font-size:10vw;
+    font-size: 100px;
     color: #F3DFA2;
     text-align: center;
 }
 /*Heading 2*/
 h2 {
-    font-size: 40px;
+    font-size:10vw;
+    font-size: 60px;
     color: #F3DFA2;
     text-align: center;
     padding: 20px;
@@ -21,6 +23,8 @@ body{
 }
 /*Paragraphs*/
 p {
+    font-size:5vw;
+    font-size: 20px;
     text-align: center;
     color: #c0c5b2;
 }
@@ -51,7 +55,8 @@ a:link {
     border: 5px double #cccccc;
     color: #eeeeee;
     text-align: center;
-    font-size: 25px;
+    font-size:20vw;
+    font-size: 30px;
     padding: 15px;
     width: 300px;
     margin: 1px;
@@ -75,6 +80,7 @@ a:link {
 .Creator-Notes a{
     background-color: #519872;
     color: #BEC5AD;
+    font-size:10vw;
     font-size: 15px;
     width: 180px;
 }
