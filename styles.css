@@ -2,16 +2,49 @@
 *{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+/*Header - Fitness Icon*/
+.header-icon{
+    float: inline-start;
+    height: 60px;
+    max-width: 80%;
+    opacity: 0.4;
+    padding: 10px;
+}
 /*Heading 1*/
 h1 {
     font-size:10vw;
     font-size: 80px;
     color: #e9c46a;
     text-align: center;
-    padding: 10px;
 }
-.workout-heading{
-    font-size: 60px;
+/*H-Home*/
+.header-home{
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-size: 100px;
+    text-shadow: 1px 1px 3px #1A6158;
+}
+/*Navigation Menu*/
+.header-menu{
+    color: #BEC5AD;
+    height: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 0px solid #1f1209;
+    box-shadow: 0px 0px 20px 0px #333;
+    padding: 20px;
+    text-align: center;  
+}
+/*menu button*/
+.menu-button{
+
+    margin-top: -100px;
+    margin-bottom: -100px;
+    font-size: 10px;
+}
+.about{
+    text-align: left;
+    padding: 10px;
 }
 /*Heading 2*/
 h2 {
@@ -20,6 +53,16 @@ h2 {
     color: #e9c46a;
     text-align: center;
     padding: 20px;
+}
+/*list headings*/
+.list-heading{
+    text-shadow: 1px 1px 3px #1A6158;
+}
+/*Unordered List*/
+ul {
+    font-size: 20px;
+    padding-left:0;
+    text-align: center;
 }
 /*Body*/
 body{
@@ -32,31 +75,8 @@ p {
     text-align: center;
     color:#264653;
 }
-.about{
-    text-align: left;
-    padding: 10px;
-}
-/*Unordered List*/
-ul {
-    font-size: 20px;
-    padding-left:0;
-    text-align: center;
-}
-/*Navigation Menu*/
-.Menu{
-    font-size: 20px;
-    color: #BEC5AD;
-    text-align: center;
-    padding-top: 0px;
-    padding-bottom: 10px;
-}
-/*Fitness Icon*/
-.icon{
-    text-align: center;
-    padding: 20px;
-}
 /* link */
-a:link {
+.button-link {
     display: inline-block;
     background-color: #264653;
     border-radius: 10px;
@@ -71,28 +91,40 @@ a:link {
     text-decoration: none;
   }
 /* visited link */
-  a:visited {
+.button-link:visited {
     color: #e9c46a;
     text-decoration: none;
-
-  }
+}
   /* hover link */
-  a:hover{
+.button-link:hover{
     color: #264653;
     background-color: #f4a261;
+    border: 5px double #000000;
   }
+  /* footer divider */
+hr.dashed{
+    border:none;
+    max-width: 90%;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -10px #333;
+    padding: 20px;
+    opacity: 0.15;
+}
   /* Social */
-.Creator-Notes{
+.footer-creator{
     padding: 20px;
 }
-.Creator-Notes a{
-    background-color: #264653;
+.footer-github-link{
+    padding: 20px;
     color: #e9c46a;
-    font-size:10vw;
-    font-size: 15px;
-    width: 180px;
+    text-align: center;
+    text-shadow: 1px 1px 3px #1A6158;
+    border-radius: 25px;
+    border: #000000;
 }
-.Creator-Notes a:hover {
-    background-color: #f4a261;
-    color: #264653;
+.footer-signature{
+    padding: 20px;
+    color: #e9c46a;
+    text-align: center;
+    text-shadow: 1px 1px 3px #1A6158;
 }

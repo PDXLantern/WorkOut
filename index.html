@@ -10,37 +10,43 @@
         <meta charset="UTF-8">
         <!-- Responsive Design for Multiple Devices-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Browser Tab Title-->
         <title>Home</title> 
     </head>
     <body>
-      <div class="Header">
-        <div class="icon">
-          <img src="./Images/fitness-icon.png" width="100px" style="max-width:80%;height:10%;">
-        </div>
-        <h1>Home</h1>
+      <!--Website Icon-->
+      <img class = "header-icon" src="./Images/fitness-icon.png">
+        <!--H1-->
+        <h1 class = "header-home">Home</h1>
       </div>
-        <!-- Navigation Menu -->
-        <div class="Menu">
-          <a href="Pages/about.html">ABOUT</a>
+        <!--Navigation Menu -->
+        <div class = "header-menu">
+          <a class = "menu-button" href="Pages/about.html">ABOUT</a>
         </div>
-          <!-- Workout Plan Links-->
-          <h2>Workout</h2>
-          <ul><a href="Workouts/chest.html">Chest</a></ul>
-          <ul><a href="Workouts/legs.html">Legs</a></ul>
-          <ul><a href="Workouts/shoulders.html">Shoulders</a></ul>
-          <ul><a href="Workouts/arms.html">Arms</a></ul>
-          <ul><a href="Workouts/back.html">Back</a></ul>
-          <!-- Healthy Recipes for cooking -->
-          <h2>Healthy Recipes</h2>
-          <ul><a href="Healthy Recipes/chicken.html">Chicken</a></ul>
-          <ul><a href="Healthy Recipes/fillet.html">Grounded Turkey</a></ul>
-          <ul><a href="Healthy Recipes/steak.html">Steak</a></ul>
-          <ul><a href="Healthy Recipes/fillet.html">Fillet</a></ul>
-          <ul><a href="Healthy Recipes/salmon.html">Salmon</a></ul>
-
-          <div class="Creator-Notes">
-          <p><a href="https://github.com/PDXLantern">PDXLantern on GitHub</a></p>
-          <p>Created by Carlos Rivera</p>
+          <!--Workout Plan Links-->
+          <h2 class = "list-heading">Workout</h2>
+          <div class = "list-workouts">
+            <ul><a class="button-link" href="Workouts/chest.html">Chest</a></ul>
+            <ul><a class="button-link" href="Workouts/legs.html">Legs</a></ul>
+            <ul><a class="button-link" href="Workouts/shoulders.html">Shoulders</a></ul>
+            <ul><a class="button-link" href="Workouts/arms.html">Arms</a></ul>
+            <ul><a class="button-link" href="Workouts/back.html">Back</a></ul>
+        </div>
+          <!--Healthy Recipes Links -->
+          <div class = "list-recipes">
+          <h2 class = "list-heading">Healthy Recipes</h2>
+            <ul><a class="button-link" href="Healthy Recipes/chicken.html">Chicken</a></ul>
+            <ul><a class="button-link" href="Healthy Recipes/grounded-turkey.html">Grounded Turkey</a></ul>
+            <ul><a class="button-link" href="Healthy Recipes/steak.html">Steak</a></ul>
+            <ul><a class="button-link" href="Healthy Recipes/fillet.html">Fillet</a></ul>
+            <ul><a class="button-link" href="Healthy Recipes/salmon.html">Salmon</a></ul>
+        </div>
+        <!--Spacer-->
+        <hr class="dashed">
+        <!--Footer-Creator-->
+        <div class="footer-creator">
+          <p a class="footer-github-link" href="https://github.com/PDXLantern">PDXLantern on GitHub</a></p>
+          <p a class="footer-signature">Created by Carlos Rivera</a></p>
         </div>
       </body>
 </html>
